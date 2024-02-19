@@ -5,7 +5,10 @@ export default antfu(
   {
     stylistic: true,
     svelte: true,
-    typescript: { tsconfigPath: 'tsconfig.lint.json' },
+    typescript: {
+      tsconfigPath: 'tsconfig.lint.json',
+      filesTypeAware: [`**\/*.{ts,tsx,svelte}`], // Enable type-aware rules in svelte files (e.g. `no-floating-promises`).
+    },
   },
   {
     name: 'my-additional-svelte-rules',
