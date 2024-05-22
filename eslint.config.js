@@ -8,6 +8,9 @@ export default antfu(
     typescript: {
       tsconfigPath: 'tsconfig.lint.json',
       filesTypeAware: [`**\/*.{ts,tsx,svelte}`], // Enable type-aware rules in svelte files (e.g. `no-floating-promises`).
+      parserOptions: {
+        extraFileExtensions: ['.svelte'],
+      },
     },
   },
   {
