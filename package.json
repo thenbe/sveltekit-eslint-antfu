@@ -10,19 +10,19 @@
 		"lint": "eslint ."
 	},
 	"devDependencies": {
-		"@antfu/eslint-config": "^2.6.4",
-		"@fontsource/fira-mono": "^5.0.8",
+		"@antfu/eslint-config": "^2.18.1",
+		"@fontsource/fira-mono": "^5.0.13",
 		"@neoconfetti/svelte": "^2.2.1",
-		"@sveltejs/adapter-auto": "^3.1.1",
-		"@sveltejs/kit": "^2.5.1",
-		"@sveltejs/vite-plugin-svelte": "^3.0.2",
-		"eslint": "^8.56.0",
-		"eslint-plugin-svelte": "^2.35.1",
-		"svelte": "^4.2.12",
-		"svelte-check": "^3.6.4",
+		"@sveltejs/adapter-auto": "^3.2.1",
+		"@sveltejs/kit": "^2.5.10",
+		"@sveltejs/vite-plugin-svelte": "^3.1.0",
+		"eslint": "^9.3.0",
+		"eslint-plugin-svelte": "^2.39.0",
+		"svelte": "^4.2.17",
+		"svelte-check": "^3.7.1",
 		"tslib": "^2.6.2",
-		"typescript": "^5.3.3",
-		"vite": "^5.1.4"
+		"typescript": "^5.4.5",
+		"vite": "^5.2.11"
 	},
 	"type": "module"
 }
